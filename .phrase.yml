@@ -1,0 +1,22 @@
+phraseapp:
+  access_token: bce675cb1460c5a681a1339872a2683a564e2a2405a5cfda9cbbb5b8dc6d34f8
+  project_id: fdd1011e886da6766e07e463b42d770f
+
+  push:
+    sources:
+      - file: ./locales-phrase/en/common.json
+        params:
+          file_format: simple_json
+          locale_id: d6bfbd1208226a047f57db63f00106fc
+          update_translations: true
+
+  pull:
+    targets:
+      - file: ./locales-phrase/ja/common.json
+        params:
+          file_foramt: simple_json
+          locale_id: 2e9af7979f89e7d4ecacb7598a17ed5c
+      # - file: ./locales-phrase/fr/common.json
+      #   params:
+      #     file_foramt: simple_json
+      #     locale_id: e470bb0d6c8330efe7d643b45598d540
